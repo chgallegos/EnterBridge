@@ -1,0 +1,16 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/EnterBridgeApp/index.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-IsZFHDxjoKoa5lIU5cN6sZpxT6qy/1gZ4MOWRTh/HSo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"7389"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022IsZFHDxjoKoa5lIU5cN6sZpxT6qy/1gZ4MOWRTh/HSo=\u0022"},{"Name":"Last-Modified","Value":"Sat, 12 Apr 2025 22:02:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/EnterBridgeApp/index.yoa4zt6vlx.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yoa4zt6vlx"},{"Name":"integrity","Value":"sha256-IsZFHDxjoKoa5lIU5cN6sZpxT6qy/1gZ4MOWRTh/HSo="},{"Name":"label","Value":"_content/EnterBridgeApp/index.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7389"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022IsZFHDxjoKoa5lIU5cN6sZpxT6qy/1gZ4MOWRTh/HSo=\u0022"},{"Name":"Last-Modified","Value":"Sat, 12 Apr 2025 22:02:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>
