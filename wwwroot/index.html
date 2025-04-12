@@ -3,11 +3,49 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Procurement Portal</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  <title>EnterBridge Procurement Portal</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <style>
-    body { font-family: 'Inter', sans-serif; }
+    :root {
+      --primary: #004B87;
+      --secondary: #00AEEF;
+      --light-bg: #f5f5f5;
+      --text-dark: #333;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--light-bg);
+      color: var(--text-dark);
+    }
+
+    .card {
+      border-radius: 6px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      background: #fff;
+    }
+
+    h1, h5 {
+      color: var(--primary);
+    }
+
+    .btn-primary {
+      background-color: var(--primary);
+      border: none;
+    }
+
+    .btn-outline-secondary {
+      border-color: var(--primary);
+      color: var(--primary);
+    }
+
+    .btn-outline-secondary:hover {
+      background-color: var(--primary);
+      color: white;
+    }
+
     .notification {
       text-align: center;
       font-weight: 600;
@@ -16,43 +54,73 @@
       opacity: 0;
       transition: opacity 0.5s ease-in-out;
     }
+
     .notification.show {
       opacity: 1;
+    }
+
+    .spinner-border {
+      display: none;
+    }
+
+    #logo {
+      max-height: 60px;
     }
   </style>
 </head>
 <body>
-  <div class="container py-5">
-    <h1 class="mb-4 text-center">Procurement Order Portal</h1>
+  <div class="container py-4">
+    <div class="text-center mb-4">
+      <img src="img/enterbridge-logo.png" id="logo" alt="EnterBridge Logo"/>
+      <h1 class="mt-2">Procurement Order Portal</h1>
+    </div>
+
 
     <div class="row">
+      <!-- Left Panel -->
       <div class="col-md-6">
-        <div class="card p-4 shadow-sm">
+        <div class="card p-4 mb-4">
           <h5>Create Order</h5>
-          <form id="orderForm">
+          <form id="orderForm" onsubmit="event.preventDefault(); addToCart();">
             <div class="mb-3">
               <label for="productSelect" class="form-label">Product</label>
               <select id="productSelect" class="form-select" required></select>
+              <div class="spinner-border text-primary mt-2" role="status" id="productSpinner">
+                <span class="visually-hidden">Loading...</span>
+              </div>
             </div>
+
             <div class="mb-3">
               <label for="quantity" class="form-label">Quantity</label>
               <div class="input-group">
                 <button type="button" class="btn btn-outline-secondary" onclick="adjustQuantity(-1)">−</button>
-                <input type="number" class="form-control text-center" id="quantity" value="1" min="1" step="1" required />
+                <input type="number" class="form-control text-center" id="quantity" value="0" min="0" step="1" required />
                 <button type="button" class="btn btn-outline-secondary" onclick="adjustQuantity(1)">+</button>
               </div>
             </div>
-            <button type="submit" class="btn btn-primary w-100">Submit Order</button>
-            <div id="submitNotification" class="notification"></div>
+
+            <button type="submit" class="btn btn-success w-100 mb-2">Add to Order</button>
+            <div id="addNotification" class="notification mt-2"></div>
           </form>
+
+          <div class="mt-3">
+            <h6>Current Order</h6>
+            <ul id="currentOrderList" class="list-group mb-2"></ul>
+            <div class="d-flex justify-content-between align-items-center">
+              <strong>Subtotal:</strong> <span id="subtotal">$0.00</span>
+            </div>
+            <button class="btn btn-primary w-100 mt-2" onclick="submitCart()">Submit Order</button>
+            <div id="submitNotification" class="notification mt-2"></div>
+          </div>
         </div>
       </div>
 
+      <!-- Right Panel -->
       <div class="col-md-6">
-        <div class="card p-4 shadow-sm">
+        <div class="card p-4 mb-4">
           <h5>Recent Orders</h5>
-          <ul id="orderList" class="list-group list-group-flush"></ul>
-          <button class="btn btn-sm btn-secondary mt-3" onclick="downloadCSV(orderHistory)">Export CSV</button>
+          <div id="groupedOrders"></div>
+          <button class="btn btn-outline-secondary mt-3" onclick="downloadCSV(orderHistory)">Export CSV</button>
         </div>
       </div>
     </div>
@@ -61,8 +129,45 @@
   <script>
     const apiBase = "http://localhost:5000/api/proxy";
     const localBackend = "http://localhost:5000/api";
-    let productMap = {};
-    let orderHistory = [];
+    let productMap = {}, orderHistory = [], cart = [];
+
+    function toggleTheme() {
+      const root = document.documentElement;
+      root.setAttribute('data-theme', root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+    }
+
+    function adjustQuantity(change) {
+      const input = document.getElementById("quantity");
+      let value = parseInt(input.value) || 1;
+      value = Math.max(1, value + change);
+      input.value = value;
+    }
+
+    function showNotification(id, message) {
+      const note = document.getElementById(id);
+      note.textContent = message;
+      note.classList.add("show");
+      setTimeout(() => note.classList.remove("show"), 2000);
+    }
+
+    async function fetchProducts() {
+      const select = document.getElementById("productSelect");
+      const spinner = document.getElementById("productSpinner");
+      spinner.style.display = 'inline-block';
+      try {
+        const res = await fetch(`${apiBase}/products`);
+        const products = await res.json();
+        productMap = {};
+        select.innerHTML = products.map(p => {
+          productMap[p.id] = { name: p.name, sku: p.sku, category: p.category };
+          return `<option value="${p.id}">${p.name} — ${p.category}</option>`;
+        }).join('');
+      } catch {
+        select.innerHTML = `<option>Error loading</option>`;
+      } finally {
+        spinner.style.display = 'none';
+      }
+    }
 
     function generateOrderId() {
       const now = new Date();
@@ -70,51 +175,10 @@
       return `ORD-${now.getFullYear()}${pad(now.getMonth()+1)}${pad(now.getDate())}-${pad(now.getHours())}${pad(now.getMinutes())}${pad(now.getSeconds())}`;
     }
 
-    async function fetchProducts() {
-      const select = document.getElementById("productSelect");
-      try {
-        const res = await fetch(`${apiBase}/products`);
-        const products = await res.json();
-        productMap = {};
-        products.forEach(p => {
-          productMap[p.id] = { name: p.name, sku: p.sku };
-        });
-        select.innerHTML = products.map(p => `<option value="${p.id}">${p.name} — ${p.category}</option>`).join('');
-      } catch (err) {
-        select.innerHTML = `<option>Error loading products</option>`;
-      }
-    }
+    async function addToCart() {
+      const productId = parseInt(document.getElementById("productSelect").value);
+      const quantity = parseInt(document.getElementById("quantity").value);
 
-    async function loadOrders() {
-      const res = await fetch(`${localBackend}/orders`);
-      const orders = await res.json();
-      const list = document.getElementById("orderList");
-      list.innerHTML = '';
-      orderHistory = [];
-
-      orders.slice().reverse().forEach(o => {
-        const name = productMap[o.productId]?.name ?? `Product ${o.productId}`;
-        const sku = productMap[o.productId]?.sku ?? "N/A";
-        const total = (o.price).toFixed(2);
-        const unit = (o.price / o.quantity).toFixed(2);
-        const id = generateOrderId();
-        const createdAt = new Date().toISOString();
-
-        orderHistory.push({ ...o, id, sku, createdAt });
-
-        list.innerHTML += `
-          <li class="list-group-item d-flex justify-content-between align-items-center">
-            <div>
-              <strong>${name}</strong><br/>
-              <small class="text-muted">Order ID: ${id}</small><br/>
-              Qty: ${o.quantity} @ $${unit} ea
-            </div>
-            <span class="badge bg-success rounded-pill">$${total}</span>
-          </li>`;
-      });
-    }
-
-    async function submitOrder(productId, quantity) {
       const priceRes = await fetch(`${apiBase}/prices?productId=${productId}`);
       const priceData = await priceRes.json();
       const prices = Array.isArray(priceData.items) ? priceData.items : [];
@@ -122,87 +186,125 @@
       const unitPrice = latest && latest.amount && latest.quantity ? latest.amount / latest.quantity : 0;
       const totalPrice = parseFloat((unitPrice * quantity).toFixed(2));
 
-      const orderPayload = {
-        productId: parseInt(productId),
-        quantity: parseInt(quantity),
-        price: totalPrice
-      };
-
-      const res = await fetch(`${localBackend}/orders`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(orderPayload)
+      cart.push({
+        productId,
+        quantity,
+        unitPrice,
+        totalPrice,
+        name: productMap[productId]?.name ?? `Product ${productId}`,
+        sku: productMap[productId]?.sku ?? "N/A"
       });
 
-      if (!res.ok) throw new Error("Failed to submit order.");
+      document.getElementById("quantity").value = 1;
+      renderCart();
+      showNotification("addNotification", "✅ Added to order!");
     }
 
-    function adjustQuantity(change) {
-      const input = document.getElementById("quantity");
-      let value = parseInt(input.value) || 1;
-      value += change;
-      if (value < 1) value = 1;
-      input.value = value;
+    function renderCart() {
+      const list = document.getElementById("currentOrderList");
+      const subtotal = document.getElementById("subtotal");
+      list.innerHTML = '';
+      let sum = 0;
+      cart.forEach((item, index) => {
+        sum += item.totalPrice;
+        list.innerHTML += `
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            <div>${item.name} <br/><small>Qty: ${item.quantity} @ $${item.unitPrice.toFixed(2)}</small></div>
+            <button class="btn btn-sm btn-danger" onclick="removeFromCart(${index})">Remove</button>
+          </li>`;
+      });
+      subtotal.textContent = `$${sum.toFixed(2)}`;
     }
 
-    function showNotification(message) {
-      const notify = document.getElementById("submitNotification");
-      notify.textContent = message;
-      notify.classList.add("show");
-      notify.classList.remove("fade-out");
-      setTimeout(() => {
-        notify.classList.remove("show");
-      }, 2000); // 2 second fade
+    function removeFromCart(index) {
+      cart.splice(index, 1);
+      renderCart();
+    }
+
+    async function submitCart() {
+      if (cart.length === 0) return alert("🛒 Cart is empty.");
+      const orderGroupId = generateOrderId();
+      const timestamp = new Date().toISOString();
+
+      for (const item of cart) {
+        await fetch(`${localBackend}/orders`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ productId: item.productId, quantity: item.quantity, price: item.totalPrice })
+        });
+        orderHistory.push({ ...item, orderGroupId, timestamp });
+      }
+
+      cart = [];
+      renderCart();
+      renderGroupedOrders();
+      showNotification("submitNotification", "✅ Order Submitted!");
+    }
+
+    function renderGroupedOrders() {
+      const container = document.getElementById("groupedOrders");
+      container.innerHTML = '';
+      const grouped = {};
+
+      orderHistory.forEach(o => {
+        if (!grouped[o.orderGroupId]) grouped[o.orderGroupId] = [];
+        grouped[o.orderGroupId].push(o);
+      });
+
+      Object.entries(grouped).reverse().forEach(([groupId, items]) => {
+        const date = new Date(items[0].timestamp).toLocaleString();
+        const total = items.reduce((sum, i) => sum + i.totalPrice, 0).toFixed(2);
+        let html = `<div class="mb-3 border p-2 rounded">
+          <strong>🧾 Order ID: ${groupId}</strong><br/>
+          <small class="text-muted">Placed: ${date}</small>
+          <ul class="list-group list-group-flush mt-2">`;
+
+        items.forEach(i => {
+          html += `<li class="list-group-item d-flex justify-content-between">
+            ${i.name} — ${i.quantity} @ $${i.unitPrice.toFixed(2)}
+            <span class="badge bg-success">$${i.totalPrice.toFixed(2)}</span>
+          </li>`;
+        });
+
+        html += `</ul><div class="text-end mt-2"><strong>Total: $${total}</strong></div></div>`;
+        container.innerHTML += html;
+      });
     }
 
     function downloadCSV(orders) {
-      const header = ["Order ID", "Product", "SKU", "Quantity", "Unit Price", "Total Price", "Date","Time"];
-      const rows = orders.map(o => {
-        const name = productMap[o.productId]?.name ?? `Product ${o.productId}`;
-        const sku = o.sku ?? "N/A";
-        const date = o.createdAt ? new Date(o.createdAt).toLocaleString() : "";
-        const unit = o.price / o.quantity;
-        return [
-          o.id ?? "N/A",
-          name,
-          sku,
-          o.quantity,
-          unit.toFixed(2),
-          o.price.toFixed(2),
-          date
-        ];
+      const grouped = {};
+      orders.forEach(o => {
+        if (!grouped[o.orderGroupId]) grouped[o.orderGroupId] = [];
+        grouped[o.orderGroupId].push(o);
       });
 
-      const csvContent = [header, ...rows].map(r => r.join(",")).join("\r\n");
+      const header = ["Order ID", "Product", "SKU", "Quantity", "Unit Price", "Total Price", "Date"];
+      const rows = [header];
+
+      Object.entries(grouped).forEach(([id, items]) => {
+        let total = 0;
+        items.forEach(i => {
+          total += i.totalPrice;
+          const date = i.timestamp ? new Date(i.timestamp).toLocaleString() : "";
+          rows.push([id, i.name, i.sku, i.quantity, i.unitPrice.toFixed(2), i.totalPrice.toFixed(2), date]);
+        });
+        rows.push(["", "", "", "", "", "", `Order Total: $${total.toFixed(2)}`]);
+      });
+
+      const csvContent = rows.map(r => r.join(",")).join("\r\n");
       const blob = new Blob([csvContent], { type: "text/csv;charset=utf-8;" });
       const url = URL.createObjectURL(blob);
-
       const now = new Date();
       const pad = n => n.toString().padStart(2, '0');
-      const timestamp = `${now.getFullYear()}${pad(now.getMonth() + 1)}${pad(now.getDate())}-${pad(now.getHours())}${pad(now.getMinutes())}${pad(now.getSeconds())}`;
+      const filename = `orders-${now.getFullYear()}${pad(now.getMonth()+1)}${pad(now.getDate())}-${pad(now.getHours())}${pad(now.getMinutes())}${pad(now.getSeconds())}.csv`;
       const a = document.createElement("a");
       a.href = url;
-      a.download = `orders-${timestamp}.csv`;
+      a.download = filename;
       a.click();
       URL.revokeObjectURL(url);
     }
 
-    document.getElementById("orderForm").addEventListener("submit", async e => {
-      e.preventDefault();
-      const productId = document.getElementById("productSelect").value;
-      const quantity = document.getElementById("quantity").value;
-      try {
-        await submitOrder(productId, quantity);
-        await loadOrders();
-        e.target.reset();
-        document.getElementById("quantity").value = 1;
-        showNotification("✅ Order Placed!");
-      } catch (err) {
-        alert("❌ " + err.message);
-      }
-    });
-
-    fetchProducts().then(loadOrders);
+    fetchProducts();
   </script>
 </body>
 </html>

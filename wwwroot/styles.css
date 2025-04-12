@@ -1,0 +1,87 @@
+:root {
+    --primary: #004B87;
+    --secondary: #00AEEF;
+    --light-bg: #f5f5f5;
+    --text-dark: #333;
+    --white: #fff;
+  }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--light-bg);
+    color: var(--text-dark);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .card {
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background: var(--white);
+    margin-bottom: 1rem;
+  }
+  
+  h1, h5, h6 {
+    color: var(--primary);
+    font-weight: 600;
+  }
+  
+  .btn-primary {
+    background-color: var(--primary);
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #003765;
+  }
+  
+  .btn-outline-secondary {
+    border-color: var(--primary);
+    color: var(--primary);
+  }
+  
+  .btn-outline-secondary:hover {
+    background-color: var(--primary);
+    color: var(--white);
+  }
+  
+  .notification {
+    text-align: center;
+    font-weight: 600;
+    margin-top: 10px;
+    color: green;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .notification.show {
+    opacity: 1;
+  }
+  
+  .spinner-border {
+    display: none;
+  }
+  
+  #logo {
+    max-height: 60px;
+  }
+  
+  /* Quantity input styling */
+  input[type="number"] {
+    text-align: center;
+    -moz-appearance: textfield;
+  }
+  
+  /* Hide number input arrows in Chrome, Safari, Edge */
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  /* Table styles (for grouped orders, optional) */
+  .list-group-item {
+    background: transparent;
+    border-color: #eee;
+  }
+  

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EnterBridgeApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8aa2b4fdde9ac1e0ac1d8a6a10bed89691e0f14a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+262667ddb9127f0570b0f0c279fbbca0047a04ca")]
 [assembly: System.Reflection.AssemblyProductAttribute("EnterBridgeApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EnterBridgeApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

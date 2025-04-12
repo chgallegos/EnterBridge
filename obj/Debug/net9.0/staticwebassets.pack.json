@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "/Users/chrisgallegos/Programming/EnterBridge/wwwroot/img/enterbridge-logo.svg",
+      "PackagePath": "staticwebassets/img/enterbridge-logo.svg"
+    },
+    {
       "Id": "/Users/chrisgallegos/Programming/EnterBridge/wwwroot/index.html",
       "PackagePath": "staticwebassets/index.html"
     },
