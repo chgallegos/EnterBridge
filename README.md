@@ -53,7 +53,7 @@ Designed to be responsive and tablet-friendly, it supports fast ordering workflo
 ### 1. Clone the project and move into the folder:
 
 ```bash
-cd your/path/EnterBridgeApp
+cd your/path/EnterBridge
 ```
 
 ### 2. Run the backend:
@@ -106,8 +106,8 @@ CSV export groups by Order ID and includes:
 
 ## 🎥 Recording
 
-A short walkthrough video is included in the repo:  
-📁 `recording.mp4` – showing how the app works end-to-end
+[![Watch the Demo Video](https://img.youtube.com/vi/xksHtzwrKj4/0.jpg)](https://youtu.be/xksHtzwrKj4)
+👉 [Click here to watch on YouTube](https://youtu.be/xksHtzwrKj4)
 
 ---
 
