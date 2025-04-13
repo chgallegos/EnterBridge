@@ -219,30 +219,41 @@
     }
 
     async function addToCart() {
-      const productId = parseInt(document.getElementById("productSelect").value);
-      const quantity = parseInt(document.getElementById("quantity").value);
+    const productId = parseInt(document.getElementById("productSelect").value);
+    const quantity = parseInt(document.getElementById("quantity").value);
 
-      const priceRes = await fetch(`${apiBase}/prices?productId=${productId}`);
-      const priceData = await priceRes.json();
-      const prices = Array.isArray(priceData.items) ? priceData.items : [];
-      const latest = prices.sort((a, b) => new Date(b.dateTime) - new Date(a.dateTime))[0];
-      const unitPrice = latest && latest.amount && latest.quantity ? latest.amount / latest.quantity : 0;
-      const totalPrice = parseFloat((unitPrice * quantity).toFixed(2));
+    const priceRes = await fetch(`${apiBase}/prices?productId=${productId}`);
+    const priceData = await priceRes.json();
+    const prices = Array.isArray(priceData.items) ? priceData.items : [];
+    const latest = prices.sort((a, b) => new Date(b.dateTime) - new Date(a.dateTime))[0];
+    const unitPrice = latest && latest.amount && latest.quantity ? latest.amount / latest.quantity : 0;
+    const name = productMap[productId]?.name ?? `Product ${productId}`;
+    const sku = productMap[productId]?.sku ?? "N/A";
+    const category = productMap[productId]?.category ?? "Uncategorized";
 
+    // 🔁 Check if item already exists in cart
+    const existing = cart.find(item => item.productId === productId);
+
+    if (existing) {
+      existing.quantity += quantity;
+      existing.totalPrice = parseFloat((existing.unitPrice * existing.quantity).toFixed(2));
+    } else {
       cart.push({
         productId,
         quantity,
         unitPrice,
-        totalPrice,
-        name: productMap[productId]?.name ?? `Product ${productId}`,
-        sku: productMap[productId]?.sku ?? "N/A",
-        category: productMap[productId]?.category ?? "Uncategorized"
+        totalPrice: parseFloat((unitPrice * quantity).toFixed(2)),
+        name,
+        sku,
+        category
       });
-
-      document.getElementById("quantity").value = 1;
-      renderCart();
-      showNotification("addNotification", "✅ Added to order!");
     }
+
+    document.getElementById("quantity").value = 1;
+    renderCart();
+    showNotification("addNotification", "✅ Added to order!");
+  }
+
 
     function renderCart() {
       const list = document.getElementById("currentOrderList");

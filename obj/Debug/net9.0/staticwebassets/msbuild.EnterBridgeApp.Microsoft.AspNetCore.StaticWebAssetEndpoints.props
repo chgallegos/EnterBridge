@@ -12,17 +12,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"zs4pjq0w3t"},{"Name":"integrity","Value":"sha256-bYAzfrCnXf7FAXi5BTYWLFgXzk\u002BXEfZjKGfTrBZFR6o="},{"Name":"label","Value":"_content/EnterBridgeApp/img/enterbridge-logo.png"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"17049"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022bYAzfrCnXf7FAXi5BTYWLFgXzk\u002BXEfZjKGfTrBZFR6o=\u0022"},{"Name":"Last-Modified","Value":"Sat, 12 Apr 2025 23:15:25 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/EnterBridgeApp/index.2sdjqw5zi6.html">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2sdjqw5zi6"},{"Name":"integrity","Value":"sha256-grYEkBOgt\u002B0I99OPP2qo4ymxohRQMh8juoHfdWrtVMg="},{"Name":"label","Value":"_content/EnterBridgeApp/index.html"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"13215"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022grYEkBOgt\u002B0I99OPP2qo4ymxohRQMh8juoHfdWrtVMg=\u0022"},{"Name":"Last-Modified","Value":"Sun, 13 Apr 2025 21:00:28 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/EnterBridgeApp/index.html">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-grYEkBOgt\u002B0I99OPP2qo4ymxohRQMh8juoHfdWrtVMg="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"13215"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022grYEkBOgt\u002B0I99OPP2qo4ymxohRQMh8juoHfdWrtVMg=\u0022"},{"Name":"Last-Modified","Value":"Sun, 13 Apr 2025 21:00:28 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-X\u002BFqg9K3fm85fI0XSDbPCDblkmMsCdEt2OnhyOKnljM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"13512"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022X\u002BFqg9K3fm85fI0XSDbPCDblkmMsCdEt2OnhyOKnljM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 13 Apr 2025 21:04:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/EnterBridgeApp/index.zrvau5xk7m.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"zrvau5xk7m"},{"Name":"integrity","Value":"sha256-X\u002BFqg9K3fm85fI0XSDbPCDblkmMsCdEt2OnhyOKnljM="},{"Name":"label","Value":"_content/EnterBridgeApp/index.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"13512"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022X\u002BFqg9K3fm85fI0XSDbPCDblkmMsCdEt2OnhyOKnljM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 13 Apr 2025 21:04:02 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/EnterBridgeApp/styles.82727gwr8s.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\styles.css'))</AssetFile>
