@@ -17,7 +17,7 @@ public class ProxyController : ControllerBase
     [HttpGet("products")]
     public async Task<IActionResult> GetProducts()
     {
-        var response = await _httpClient.GetAsync("https://api.casestudy.enterbridge.com/api/products?PageNumber=1&PageSize=100");
+        var response = await _httpClient.GetAsync("https://api.casestudy.enterbridge.com/api/products?PageNumber=1&PageSize=1000");
 
         if (!response.IsSuccessStatusCode)
         {

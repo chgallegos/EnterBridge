@@ -1,15 +1,15 @@
 {
   "Files": [
     {
-      "Id": "/Users/chrisgallegos/Desktop/EnterBridge/wwwroot/img/enterbridge-logo.png",
+      "Id": "/Users/chrisgallegos/Programming/EnterBridge/wwwroot/img/enterbridge-logo.png",
       "PackagePath": "staticwebassets/img/enterbridge-logo.png"
     },
     {
-      "Id": "/Users/chrisgallegos/Desktop/EnterBridge/wwwroot/index.html",
+      "Id": "/Users/chrisgallegos/Programming/EnterBridge/wwwroot/index.html",
       "PackagePath": "staticwebassets/index.html"
     },
     {
-      "Id": "/Users/chrisgallegos/Desktop/EnterBridge/wwwroot/styles.css",
+      "Id": "/Users/chrisgallegos/Programming/EnterBridge/wwwroot/styles.css",
       "PackagePath": "staticwebassets/styles.css"
     },
     {

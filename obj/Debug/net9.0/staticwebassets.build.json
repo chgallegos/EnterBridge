@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "O9mdC9adfOdMT+a1xp4YnTBt44Sv88SDHrWE5yWoXJQ=",
+  "Hash": "RM6PGe4o76/kJQ9uIoGa7+aEPMbhZQNG/pcQCxe3o2I=",
   "Source": "EnterBridgeApp",
   "BasePath": "_content/EnterBridgeApp",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "EnterBridgeApp/wwwroot",
       "Source": "EnterBridgeApp",
-      "ContentRoot": "/Users/chrisgallegos/Desktop/EnterBridge/wwwroot/",
+      "ContentRoot": "/Users/chrisgallegos/Programming/EnterBridge/wwwroot/",
       "BasePath": "_content/EnterBridgeApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/Users/chrisgallegos/Desktop/EnterBridge/obj/Debug/net9.0/compressed/s2a9eyc2kc-bv5xfjwgu1.gz",
+      "Identity": "/Users/chrisgallegos/Programming/EnterBridge/obj/Debug/net9.0/compressed/s2a9eyc2kc-bv5xfjwgu1.gz",
       "SourceId": "EnterBridgeApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/chrisgallegos/Desktop/EnterBridge/obj/Debug/net9.0/compressed/",
+      "ContentRoot": "/Users/chrisgallegos/Programming/EnterBridge/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/EnterBridgeApp",
       "RelativePath": "index#[.{fingerprint=bv5xfjwgu1}]?.html.gz",
       "AssetKind": "All",
@@ -28,20 +28,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "/Users/chrisgallegos/Desktop/EnterBridge/wwwroot/index.html",
+      "RelatedAsset": "/Users/chrisgallegos/Programming/EnterBridge/wwwroot/index.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "0hkvj94gwz",
       "Integrity": "nI/WXDeiiWnFqQzgWB3Mw/IOTdmgipybFIRuBzNojgA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/chrisgallegos/Desktop/EnterBridge/wwwroot/index.html"
+      "OriginalItemSpec": "/Users/chrisgallegos/Programming/EnterBridge/wwwroot/index.html"
     },
     {
-      "Identity": "/Users/chrisgallegos/Desktop/EnterBridge/obj/Debug/net9.0/compressed/ykd4atpphl-uh4n3naj3s.gz",
+      "Identity": "/Users/chrisgallegos/Programming/EnterBridge/obj/Debug/net9.0/compressed/ykd4atpphl-uh4n3naj3s.gz",
       "SourceId": "EnterBridgeApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/chrisgallegos/Desktop/EnterBridge/obj/Debug/net9.0/compressed/",
+      "ContentRoot": "/Users/chrisgallegos/Programming/EnterBridge/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/EnterBridgeApp",
       "RelativePath": "styles#[.{fingerprint=uh4n3naj3s}]?.css.gz",
       "AssetKind": "All",
@@ -49,20 +49,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "/Users/chrisgallegos/Desktop/EnterBridge/wwwroot/styles.css",
+      "RelatedAsset": "/Users/chrisgallegos/Programming/EnterBridge/wwwroot/styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "8n9wrysi2h",
       "Integrity": "1PtgJjz/kRFiUBAsSVf+Se4XJ/MkLboT9XWLX3CHNgo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/chrisgallegos/Desktop/EnterBridge/wwwroot/styles.css"
+      "OriginalItemSpec": "/Users/chrisgallegos/Programming/EnterBridge/wwwroot/styles.css"
     },
     {
-      "Identity": "/Users/chrisgallegos/Desktop/EnterBridge/wwwroot/img/enterbridge-logo.png",
+      "Identity": "/Users/chrisgallegos/Programming/EnterBridge/wwwroot/img/enterbridge-logo.png",
       "SourceId": "EnterBridgeApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/chrisgallegos/Desktop/EnterBridge/wwwroot/",
+      "ContentRoot": "/Users/chrisgallegos/Programming/EnterBridge/wwwroot/",
       "BasePath": "_content/EnterBridgeApp",
       "RelativePath": "img/enterbridge-logo#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -80,10 +80,10 @@
       "OriginalItemSpec": "wwwroot/img/enterbridge-logo.png"
     },
     {
-      "Identity": "/Users/chrisgallegos/Desktop/EnterBridge/wwwroot/index.html",
+      "Identity": "/Users/chrisgallegos/Programming/EnterBridge/wwwroot/index.html",
       "SourceId": "EnterBridgeApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/chrisgallegos/Desktop/EnterBridge/wwwroot/",
+      "ContentRoot": "/Users/chrisgallegos/Programming/EnterBridge/wwwroot/",
       "BasePath": "_content/EnterBridgeApp",
       "RelativePath": "index#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -101,10 +101,10 @@
       "OriginalItemSpec": "wwwroot/index.html"
     },
     {
-      "Identity": "/Users/chrisgallegos/Desktop/EnterBridge/wwwroot/styles.css",
+      "Identity": "/Users/chrisgallegos/Programming/EnterBridge/wwwroot/styles.css",
       "SourceId": "EnterBridgeApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/chrisgallegos/Desktop/EnterBridge/wwwroot/",
+      "ContentRoot": "/Users/chrisgallegos/Programming/EnterBridge/wwwroot/",
       "BasePath": "_content/EnterBridgeApp",
       "RelativePath": "styles#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -125,7 +125,7 @@
   "Endpoints": [
     {
       "Route": "img/enterbridge-logo.png",
-      "AssetFile": "/Users/chrisgallegos/Desktop/EnterBridge/wwwroot/img/enterbridge-logo.png",
+      "AssetFile": "/Users/chrisgallegos/Programming/EnterBridge/wwwroot/img/enterbridge-logo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -162,7 +162,7 @@
     },
     {
       "Route": "img/enterbridge-logo.zs4pjq0w3t.png",
-      "AssetFile": "/Users/chrisgallegos/Desktop/EnterBridge/wwwroot/img/enterbridge-logo.png",
+      "AssetFile": "/Users/chrisgallegos/Programming/EnterBridge/wwwroot/img/enterbridge-logo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -207,7 +207,7 @@
     },
     {
       "Route": "index.bv5xfjwgu1.html",
-      "AssetFile": "/Users/chrisgallegos/Desktop/EnterBridge/obj/Debug/net9.0/compressed/s2a9eyc2kc-bv5xfjwgu1.gz",
+      "AssetFile": "/Users/chrisgallegos/Programming/EnterBridge/obj/Debug/net9.0/compressed/s2a9eyc2kc-bv5xfjwgu1.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -270,7 +270,7 @@
     },
     {
       "Route": "index.bv5xfjwgu1.html",
-      "AssetFile": "/Users/chrisgallegos/Desktop/EnterBridge/wwwroot/index.html",
+      "AssetFile": "/Users/chrisgallegos/Programming/EnterBridge/wwwroot/index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -315,7 +315,7 @@
     },
     {
       "Route": "index.bv5xfjwgu1.html.gz",
-      "AssetFile": "/Users/chrisgallegos/Desktop/EnterBridge/obj/Debug/net9.0/compressed/s2a9eyc2kc-bv5xfjwgu1.gz",
+      "AssetFile": "/Users/chrisgallegos/Programming/EnterBridge/obj/Debug/net9.0/compressed/s2a9eyc2kc-bv5xfjwgu1.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -368,7 +368,7 @@
     },
     {
       "Route": "index.html",
-      "AssetFile": "/Users/chrisgallegos/Desktop/EnterBridge/obj/Debug/net9.0/compressed/s2a9eyc2kc-bv5xfjwgu1.gz",
+      "AssetFile": "/Users/chrisgallegos/Programming/EnterBridge/obj/Debug/net9.0/compressed/s2a9eyc2kc-bv5xfjwgu1.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -423,7 +423,7 @@
     },
     {
       "Route": "index.html",
-      "AssetFile": "/Users/chrisgallegos/Desktop/EnterBridge/wwwroot/index.html",
+      "AssetFile": "/Users/chrisgallegos/Programming/EnterBridge/wwwroot/index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -460,7 +460,7 @@
     },
     {
       "Route": "index.html.gz",
-      "AssetFile": "/Users/chrisgallegos/Desktop/EnterBridge/obj/Debug/net9.0/compressed/s2a9eyc2kc-bv5xfjwgu1.gz",
+      "AssetFile": "/Users/chrisgallegos/Programming/EnterBridge/obj/Debug/net9.0/compressed/s2a9eyc2kc-bv5xfjwgu1.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -505,7 +505,7 @@
     },
     {
       "Route": "styles.css",
-      "AssetFile": "/Users/chrisgallegos/Desktop/EnterBridge/obj/Debug/net9.0/compressed/ykd4atpphl-uh4n3naj3s.gz",
+      "AssetFile": "/Users/chrisgallegos/Programming/EnterBridge/obj/Debug/net9.0/compressed/ykd4atpphl-uh4n3naj3s.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -560,7 +560,7 @@
     },
     {
       "Route": "styles.css",
-      "AssetFile": "/Users/chrisgallegos/Desktop/EnterBridge/wwwroot/styles.css",
+      "AssetFile": "/Users/chrisgallegos/Programming/EnterBridge/wwwroot/styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -597,7 +597,7 @@
     },
     {
       "Route": "styles.css.gz",
-      "AssetFile": "/Users/chrisgallegos/Desktop/EnterBridge/obj/Debug/net9.0/compressed/ykd4atpphl-uh4n3naj3s.gz",
+      "AssetFile": "/Users/chrisgallegos/Programming/EnterBridge/obj/Debug/net9.0/compressed/ykd4atpphl-uh4n3naj3s.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -642,7 +642,7 @@
     },
     {
       "Route": "styles.uh4n3naj3s.css",
-      "AssetFile": "/Users/chrisgallegos/Desktop/EnterBridge/obj/Debug/net9.0/compressed/ykd4atpphl-uh4n3naj3s.gz",
+      "AssetFile": "/Users/chrisgallegos/Programming/EnterBridge/obj/Debug/net9.0/compressed/ykd4atpphl-uh4n3naj3s.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -705,7 +705,7 @@
     },
     {
       "Route": "styles.uh4n3naj3s.css",
-      "AssetFile": "/Users/chrisgallegos/Desktop/EnterBridge/wwwroot/styles.css",
+      "AssetFile": "/Users/chrisgallegos/Programming/EnterBridge/wwwroot/styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -750,7 +750,7 @@
     },
     {
       "Route": "styles.uh4n3naj3s.css.gz",
-      "AssetFile": "/Users/chrisgallegos/Desktop/EnterBridge/obj/Debug/net9.0/compressed/ykd4atpphl-uh4n3naj3s.gz",
+      "AssetFile": "/Users/chrisgallegos/Programming/EnterBridge/obj/Debug/net9.0/compressed/ykd4atpphl-uh4n3naj3s.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {

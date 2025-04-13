@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/chrisgallegos/Desktop/EnterBridge/EnterBridgeApp.csproj": {}
+    "/Users/chrisgallegos/Programming/EnterBridge/EnterBridgeApp.csproj": {}
   },
   "projects": {
-    "/Users/chrisgallegos/Desktop/EnterBridge/EnterBridgeApp.csproj": {
+    "/Users/chrisgallegos/Programming/EnterBridge/EnterBridgeApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/chrisgallegos/Desktop/EnterBridge/EnterBridgeApp.csproj",
+        "projectUniqueName": "/Users/chrisgallegos/Programming/EnterBridge/EnterBridgeApp.csproj",
         "projectName": "EnterBridgeApp",
-        "projectPath": "/Users/chrisgallegos/Desktop/EnterBridge/EnterBridgeApp.csproj",
+        "projectPath": "/Users/chrisgallegos/Programming/EnterBridge/EnterBridgeApp.csproj",
         "packagesPath": "/Users/chrisgallegos/.nuget/packages/",
-        "outputPath": "/Users/chrisgallegos/Desktop/EnterBridge/obj/",
+        "outputPath": "/Users/chrisgallegos/Programming/EnterBridge/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/chrisgallegos/.nuget/NuGet/NuGet.Config"
