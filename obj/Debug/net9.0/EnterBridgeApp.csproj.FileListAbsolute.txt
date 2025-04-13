@@ -38,7 +38,6 @@
 /Users/chrisgallegos/Programming/EnterBridge/obj/Debug/net9.0/ref/EnterBridgeApp.dll
 /Users/chrisgallegos/Programming/EnterBridge/bin/Debug/net9.0/EnterBridgeApp.staticwebassets.runtime.json
 /Users/chrisgallegos/Programming/EnterBridge/bin/Debug/net9.0/Newtonsoft.Json.dll
-/Users/chrisgallegos/Programming/EnterBridge/obj/Debug/net9.0/compressed/s2a9eyc2kc-bv5xfjwgu1.gz
 /Users/chrisgallegos/Programming/EnterBridge/obj/Debug/net9.0/compressed/ykd4atpphl-uh4n3naj3s.gz
 /Users/chrisgallegos/Desktop/EnterBridge/bin/Debug/net9.0/EnterBridgeApp.staticwebassets.endpoints.json
 /Users/chrisgallegos/Desktop/EnterBridge/bin/Debug/net9.0/EnterBridgeApp.staticwebassets.runtime.json
@@ -82,3 +81,4 @@
 /Users/chrisgallegos/Desktop/EnterBridge/obj/Debug/net9.0/EnterBridgeApp.pdb
 /Users/chrisgallegos/Desktop/EnterBridge/obj/Debug/net9.0/EnterBridgeApp.genruntimeconfig.cache
 /Users/chrisgallegos/Desktop/EnterBridge/obj/Debug/net9.0/ref/EnterBridgeApp.dll
+/Users/chrisgallegos/Programming/EnterBridge/obj/Debug/net9.0/compressed/s2a9eyc2kc-bv5xfjwgu1.gz

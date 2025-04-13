@@ -16,13 +16,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"bv5xfjwgu1"},{"Name":"integrity","Value":"sha256-9zYq/B0o9jwokaR98hrHyIHR/3eiq8q7EtW6bIv5idc="},{"Name":"label","Value":"_content/EnterBridgeApp/index.html"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10864"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u00229zYq/B0o9jwokaR98hrHyIHR/3eiq8q7EtW6bIv5idc=\u0022"},{"Name":"Last-Modified","Value":"Sat, 12 Apr 2025 23:15:25 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10864"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u00229zYq/B0o9jwokaR98hrHyIHR/3eiq8q7EtW6bIv5idc=\u0022"},{"Name":"Last-Modified","Value":"Sun, 13 Apr 2025 19:16:00 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/EnterBridgeApp/index.html">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-9zYq/B0o9jwokaR98hrHyIHR/3eiq8q7EtW6bIv5idc="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"10864"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u00229zYq/B0o9jwokaR98hrHyIHR/3eiq8q7EtW6bIv5idc=\u0022"},{"Name":"Last-Modified","Value":"Sat, 12 Apr 2025 23:15:25 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"10864"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u00229zYq/B0o9jwokaR98hrHyIHR/3eiq8q7EtW6bIv5idc=\u0022"},{"Name":"Last-Modified","Value":"Sun, 13 Apr 2025 19:16:00 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/EnterBridgeApp/styles.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\styles.css'))</AssetFile>
