@@ -32,41 +32,24 @@ The UI is designed to be mobile-friendly and easy to use on tablets (like iPads)
 **1. Open a terminal and go to the project folder:**
 
 ```bash
-cd EnterBridgeApp
+cd your/path/EnterBridgeApp
 ```
 
 **2. Run the backend (pick one):**
 
-- To run from source:
+- To run from project directory:
 
 ```bash
-dotnet run
-```
-
-- To run the published build (on Mac):
-
-```bash
-cd publish/macos-arm64
-./EnterBridgeApp
-```
-
-- On Windows:
-
-```bash
-cd publish/windows-x64
-EnterBridgeApp.exe
+dotnet build Enterbridge.sln; dotnet run EnterBridgeApp.csproj
 ```
 
 **3. Open the frontend:**
 
-Open your browser and go to:
+The script should open the default webbrowswer autmatically, in case it does not. Open your browser and go to:
 
 ```
 http://localhost:5000/index.html
 ```
-
-Make sure the HTML, CSS, and logo files are in the root or being served correctly.
-
 ---
 
 ## CSV Format
@@ -102,5 +85,5 @@ I’ve included a short video walkthrough (`recording.mp4`) showing how the app 
 ## About Me
 
 Built by Christopher Gallegos  
-[chris-gallegos.com](https://www.chris-gallegos.com)  
+[chris-gallegos.com](https://portfolio-website-chgallegos.herokuapp.com/)  
 Salt Lake City, UT
