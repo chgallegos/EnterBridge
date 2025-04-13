@@ -21,7 +21,7 @@ The UI is designed to be mobile-friendly and easy to use on tablets (like iPads)
 ## Tech Stack
 
 - HTML, CSS (Bootstrap), and vanilla JS for the frontend
-- .NET 8 backend API for handling orders
+- .NET 9 backend API for handling orders
 - No authentication (per case study scope)
 - All state is stored in-memory – no database needed
 
@@ -45,7 +45,7 @@ dotnet build Enterbridge.sln; dotnet run EnterBridgeApp.csproj
 
 **3. Open the frontend:**
 
-The script should open the default webbrowswer autmatically, in case it does not. Open your browser and go to:
+The script should open the default web browswer autmatically, in case it does not. Open your browser and go to:
 
 ```
 http://localhost:5000/index.html
