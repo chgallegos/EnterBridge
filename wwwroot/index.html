@@ -94,7 +94,7 @@
               <label for="quantity" class="form-label">Quantity</label>
               <div class="input-group">
                 <button type="button" class="btn btn-outline-secondary" onclick="adjustQuantity(-1)">−</button>
-                <input type="number" class="form-control text-center" id="quantity" value="0" min="0" step="1" required />
+                <input type="number" class="form-control text-center" id="quantity" value="1" min="1" step="1" required />
                 <button type="button" class="btn btn-outline-secondary" onclick="adjustQuantity(1)">+</button>
               </div>
             </div>
@@ -303,6 +303,9 @@
       a.click();
       URL.revokeObjectURL(url);
     }
+    document.addEventListener("DOMContentLoaded", () => {
+  document.getElementById("quantity").value = 1;
+});
 
     fetchProducts();
   </script>
