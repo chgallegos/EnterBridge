@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "d+Ht5sQTUqI=",
+  "dgSpecHash": "onxEL0SXkS0=",
   "success": true,
-  "projectFilePath": "/Users/chrisgallegos/Programming/EnterBridge/EnterBridgeApp.csproj",
+  "projectFilePath": "/Users/chrisgallegos/Desktop/EnterBridge/EnterBridgeApp.csproj",
   "expectedPackageFiles": [
     "/Users/chrisgallegos/.nuget/packages/microsoft.aspnetcore.openapi/7.0.5/microsoft.aspnetcore.openapi.7.0.5.nupkg.sha512",
     "/Users/chrisgallegos/.nuget/packages/microsoft.entityframeworkcore/7.0.5/microsoft.entityframeworkcore.7.0.5.nupkg.sha512",

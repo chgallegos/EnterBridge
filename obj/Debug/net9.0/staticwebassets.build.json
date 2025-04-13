@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mVxVoLg+zg2vEEyrVuZGdyHR3xGAQf1pHHXunljyrjo=",
+  "Hash": "O9mdC9adfOdMT+a1xp4YnTBt44Sv88SDHrWE5yWoXJQ=",
   "Source": "EnterBridgeApp",
   "BasePath": "_content/EnterBridgeApp",
   "Mode": "Default",
@@ -10,61 +10,61 @@
     {
       "Name": "EnterBridgeApp/wwwroot",
       "Source": "EnterBridgeApp",
-      "ContentRoot": "/Users/chrisgallegos/Programming/EnterBridge/wwwroot/",
+      "ContentRoot": "/Users/chrisgallegos/Desktop/EnterBridge/wwwroot/",
       "BasePath": "_content/EnterBridgeApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/Users/chrisgallegos/Programming/EnterBridge/obj/Debug/net9.0/compressed/jcl3b3s898-8dlehw30ws.gz",
+      "Identity": "/Users/chrisgallegos/Desktop/EnterBridge/obj/Debug/net9.0/compressed/s2a9eyc2kc-bv5xfjwgu1.gz",
       "SourceId": "EnterBridgeApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/chrisgallegos/Programming/EnterBridge/obj/Debug/net9.0/compressed/",
+      "ContentRoot": "/Users/chrisgallegos/Desktop/EnterBridge/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/EnterBridgeApp",
-      "RelativePath": "img/enterbridge-logo#[.{fingerprint=8dlehw30ws}]?.svg.gz",
+      "RelativePath": "index#[.{fingerprint=bv5xfjwgu1}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "/Users/chrisgallegos/Programming/EnterBridge/wwwroot/img/enterbridge-logo.svg",
+      "RelatedAsset": "/Users/chrisgallegos/Desktop/EnterBridge/wwwroot/index.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "kx91f2tg66",
-      "Integrity": "iG8trPRybCdi0EoHtIsFk93ii+6yVGzQOU2eN4Ci1xs=",
+      "Fingerprint": "0hkvj94gwz",
+      "Integrity": "nI/WXDeiiWnFqQzgWB3Mw/IOTdmgipybFIRuBzNojgA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/chrisgallegos/Programming/EnterBridge/wwwroot/img/enterbridge-logo.svg"
+      "OriginalItemSpec": "/Users/chrisgallegos/Desktop/EnterBridge/wwwroot/index.html"
     },
     {
-      "Identity": "/Users/chrisgallegos/Programming/EnterBridge/obj/Debug/net9.0/compressed/s2a9eyc2kc-z8n5su3yt0.gz",
+      "Identity": "/Users/chrisgallegos/Desktop/EnterBridge/obj/Debug/net9.0/compressed/ykd4atpphl-uh4n3naj3s.gz",
       "SourceId": "EnterBridgeApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/chrisgallegos/Programming/EnterBridge/obj/Debug/net9.0/compressed/",
+      "ContentRoot": "/Users/chrisgallegos/Desktop/EnterBridge/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/EnterBridgeApp",
-      "RelativePath": "index#[.{fingerprint=z8n5su3yt0}]?.html.gz",
+      "RelativePath": "styles#[.{fingerprint=uh4n3naj3s}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "/Users/chrisgallegos/Programming/EnterBridge/wwwroot/index.html",
+      "RelatedAsset": "/Users/chrisgallegos/Desktop/EnterBridge/wwwroot/styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "c3bfqxgjto",
-      "Integrity": "GNwu4IjE1+SkAtLkez1yykmoDz38GaUeRv7BJznEHm0=",
+      "Fingerprint": "8n9wrysi2h",
+      "Integrity": "1PtgJjz/kRFiUBAsSVf+Se4XJ/MkLboT9XWLX3CHNgo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/chrisgallegos/Programming/EnterBridge/wwwroot/index.html"
+      "OriginalItemSpec": "/Users/chrisgallegos/Desktop/EnterBridge/wwwroot/styles.css"
     },
     {
-      "Identity": "/Users/chrisgallegos/Programming/EnterBridge/wwwroot/img/enterbridge-logo.svg",
+      "Identity": "/Users/chrisgallegos/Desktop/EnterBridge/wwwroot/img/enterbridge-logo.png",
       "SourceId": "EnterBridgeApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/chrisgallegos/Programming/EnterBridge/wwwroot/",
+      "ContentRoot": "/Users/chrisgallegos/Desktop/EnterBridge/wwwroot/",
       "BasePath": "_content/EnterBridgeApp",
-      "RelativePath": "img/enterbridge-logo#[.{fingerprint}]?.svg",
+      "RelativePath": "img/enterbridge-logo#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -73,17 +73,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "8dlehw30ws",
-      "Integrity": "VDsAPIY7kJnR8GOnniowf99dbnSaxexwFENRa3DkLYg=",
+      "Fingerprint": "zs4pjq0w3t",
+      "Integrity": "bYAzfrCnXf7FAXi5BTYWLFgXzk+XEfZjKGfTrBZFR6o=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/img/enterbridge-logo.svg"
+      "OriginalItemSpec": "wwwroot/img/enterbridge-logo.png"
     },
     {
-      "Identity": "/Users/chrisgallegos/Programming/EnterBridge/wwwroot/index.html",
+      "Identity": "/Users/chrisgallegos/Desktop/EnterBridge/wwwroot/index.html",
       "SourceId": "EnterBridgeApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/chrisgallegos/Programming/EnterBridge/wwwroot/",
+      "ContentRoot": "/Users/chrisgallegos/Desktop/EnterBridge/wwwroot/",
       "BasePath": "_content/EnterBridgeApp",
       "RelativePath": "index#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -94,80 +94,38 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "z8n5su3yt0",
-      "Integrity": "84jfJxufF+Ja23OBxJYgpWsAksJfYEiSb+BRYJDFsBI=",
+      "Fingerprint": "bv5xfjwgu1",
+      "Integrity": "9zYq/B0o9jwokaR98hrHyIHR/3eiq8q7EtW6bIv5idc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/index.html"
+    },
+    {
+      "Identity": "/Users/chrisgallegos/Desktop/EnterBridge/wwwroot/styles.css",
+      "SourceId": "EnterBridgeApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/chrisgallegos/Desktop/EnterBridge/wwwroot/",
+      "BasePath": "_content/EnterBridgeApp",
+      "RelativePath": "styles#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uh4n3naj3s",
+      "Integrity": "gnXqnjgpyj4LFzit+2Bus058l0m3E+z9IgUFd9mDChY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/styles.css"
     }
   ],
   "Endpoints": [
     {
-      "Route": "img/enterbridge-logo.8dlehw30ws.svg",
-      "AssetFile": "/Users/chrisgallegos/Programming/EnterBridge/obj/Debug/net9.0/compressed/jcl3b3s898-8dlehw30ws.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000135135135"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "7399"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"iG8trPRybCdi0EoHtIsFk93ii+6yVGzQOU2eN4Ci1xs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 12 Apr 2025 22:30:30 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/svg+xml"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"VDsAPIY7kJnR8GOnniowf99dbnSaxexwFENRa3DkLYg=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "8dlehw30ws"
-        },
-        {
-          "Name": "label",
-          "Value": "img/enterbridge-logo.svg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-VDsAPIY7kJnR8GOnniowf99dbnSaxexwFENRa3DkLYg="
-        }
-      ]
-    },
-    {
-      "Route": "img/enterbridge-logo.8dlehw30ws.svg",
-      "AssetFile": "/Users/chrisgallegos/Programming/EnterBridge/wwwroot/img/enterbridge-logo.svg",
+      "Route": "img/enterbridge-logo.png",
+      "AssetFile": "/Users/chrisgallegos/Desktop/EnterBridge/wwwroot/img/enterbridge-logo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -176,172 +134,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7376"
+          "Value": "17049"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/svg+xml"
+          "Value": "image/png"
         },
         {
           "Name": "ETag",
-          "Value": "\"VDsAPIY7kJnR8GOnniowf99dbnSaxexwFENRa3DkLYg=\""
+          "Value": "\"bYAzfrCnXf7FAXi5BTYWLFgXzk+XEfZjKGfTrBZFR6o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Apr 2025 22:30:30 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "8dlehw30ws"
-        },
-        {
-          "Name": "label",
-          "Value": "img/enterbridge-logo.svg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-VDsAPIY7kJnR8GOnniowf99dbnSaxexwFENRa3DkLYg="
-        }
-      ]
-    },
-    {
-      "Route": "img/enterbridge-logo.8dlehw30ws.svg.gz",
-      "AssetFile": "/Users/chrisgallegos/Programming/EnterBridge/obj/Debug/net9.0/compressed/jcl3b3s898-8dlehw30ws.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "7399"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/svg+xml"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"iG8trPRybCdi0EoHtIsFk93ii+6yVGzQOU2eN4Ci1xs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 12 Apr 2025 22:30:30 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "8dlehw30ws"
-        },
-        {
-          "Name": "label",
-          "Value": "img/enterbridge-logo.svg.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-iG8trPRybCdi0EoHtIsFk93ii+6yVGzQOU2eN4Ci1xs="
-        }
-      ]
-    },
-    {
-      "Route": "img/enterbridge-logo.svg",
-      "AssetFile": "/Users/chrisgallegos/Programming/EnterBridge/obj/Debug/net9.0/compressed/jcl3b3s898-8dlehw30ws.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000135135135"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "7399"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"iG8trPRybCdi0EoHtIsFk93ii+6yVGzQOU2eN4Ci1xs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 12 Apr 2025 22:30:30 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/svg+xml"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"VDsAPIY7kJnR8GOnniowf99dbnSaxexwFENRa3DkLYg=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-VDsAPIY7kJnR8GOnniowf99dbnSaxexwFENRa3DkLYg="
-        }
-      ]
-    },
-    {
-      "Route": "img/enterbridge-logo.svg",
-      "AssetFile": "/Users/chrisgallegos/Programming/EnterBridge/wwwroot/img/enterbridge-logo.svg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "7376"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/svg+xml"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"VDsAPIY7kJnR8GOnniowf99dbnSaxexwFENRa3DkLYg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 12 Apr 2025 22:30:30 GMT"
+          "Value": "Sat, 12 Apr 2025 23:15:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -351,13 +156,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-VDsAPIY7kJnR8GOnniowf99dbnSaxexwFENRa3DkLYg="
+          "Value": "sha256-bYAzfrCnXf7FAXi5BTYWLFgXzk+XEfZjKGfTrBZFR6o="
         }
       ]
     },
     {
-      "Route": "img/enterbridge-logo.svg.gz",
-      "AssetFile": "/Users/chrisgallegos/Programming/EnterBridge/obj/Debug/net9.0/compressed/jcl3b3s898-8dlehw30ws.gz",
+      "Route": "img/enterbridge-logo.zs4pjq0w3t.png",
+      "AssetFile": "/Users/chrisgallegos/Desktop/EnterBridge/wwwroot/img/enterbridge-logo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -366,48 +171,48 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7399"
+          "Value": "17049"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/svg+xml"
+          "Value": "image/png"
         },
         {
           "Name": "ETag",
-          "Value": "\"iG8trPRybCdi0EoHtIsFk93ii+6yVGzQOU2eN4Ci1xs=\""
+          "Value": "\"bYAzfrCnXf7FAXi5BTYWLFgXzk+XEfZjKGfTrBZFR6o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Apr 2025 22:30:30 GMT"
+          "Value": "Sat, 12 Apr 2025 23:15:25 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
+          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "zs4pjq0w3t"
+        },
+        {
+          "Name": "label",
+          "Value": "img/enterbridge-logo.png"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-iG8trPRybCdi0EoHtIsFk93ii+6yVGzQOU2eN4Ci1xs="
+          "Value": "sha256-bYAzfrCnXf7FAXi5BTYWLFgXzk+XEfZjKGfTrBZFR6o="
         }
       ]
     },
     {
-      "Route": "index.html",
-      "AssetFile": "/Users/chrisgallegos/Programming/EnterBridge/obj/Debug/net9.0/compressed/s2a9eyc2kc-z8n5su3yt0.gz",
+      "Route": "index.bv5xfjwgu1.html",
+      "AssetFile": "/Users/chrisgallegos/Desktop/EnterBridge/obj/Debug/net9.0/compressed/s2a9eyc2kc-bv5xfjwgu1.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000271812993"
+          "Quality": "0.000281373101"
         }
       ],
       "ResponseHeaders": [
@@ -417,152 +222,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3678"
+          "Value": "3553"
         },
         {
           "Name": "ETag",
-          "Value": "\"GNwu4IjE1+SkAtLkez1yykmoDz38GaUeRv7BJznEHm0=\""
+          "Value": "\"nI/WXDeiiWnFqQzgWB3Mw/IOTdmgipybFIRuBzNojgA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Apr 2025 22:32:09 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"84jfJxufF+Ja23OBxJYgpWsAksJfYEiSb+BRYJDFsBI=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-84jfJxufF+Ja23OBxJYgpWsAksJfYEiSb+BRYJDFsBI="
-        }
-      ]
-    },
-    {
-      "Route": "index.html",
-      "AssetFile": "/Users/chrisgallegos/Programming/EnterBridge/wwwroot/index.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "11424"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"84jfJxufF+Ja23OBxJYgpWsAksJfYEiSb+BRYJDFsBI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 12 Apr 2025 22:32:09 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-84jfJxufF+Ja23OBxJYgpWsAksJfYEiSb+BRYJDFsBI="
-        }
-      ]
-    },
-    {
-      "Route": "index.html.gz",
-      "AssetFile": "/Users/chrisgallegos/Programming/EnterBridge/obj/Debug/net9.0/compressed/s2a9eyc2kc-z8n5su3yt0.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3678"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"GNwu4IjE1+SkAtLkez1yykmoDz38GaUeRv7BJznEHm0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 12 Apr 2025 22:32:09 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-GNwu4IjE1+SkAtLkez1yykmoDz38GaUeRv7BJznEHm0="
-        }
-      ]
-    },
-    {
-      "Route": "index.z8n5su3yt0.html",
-      "AssetFile": "/Users/chrisgallegos/Programming/EnterBridge/obj/Debug/net9.0/compressed/s2a9eyc2kc-z8n5su3yt0.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000271812993"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3678"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"GNwu4IjE1+SkAtLkez1yykmoDz38GaUeRv7BJznEHm0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 12 Apr 2025 22:32:09 GMT"
+          "Value": "Sat, 12 Apr 2025 23:15:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -582,13 +250,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"84jfJxufF+Ja23OBxJYgpWsAksJfYEiSb+BRYJDFsBI=\""
+          "Value": "W/\"9zYq/B0o9jwokaR98hrHyIHR/3eiq8q7EtW6bIv5idc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "z8n5su3yt0"
+          "Value": "bv5xfjwgu1"
         },
         {
           "Name": "label",
@@ -596,13 +264,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-84jfJxufF+Ja23OBxJYgpWsAksJfYEiSb+BRYJDFsBI="
+          "Value": "sha256-9zYq/B0o9jwokaR98hrHyIHR/3eiq8q7EtW6bIv5idc="
         }
       ]
     },
     {
-      "Route": "index.z8n5su3yt0.html",
-      "AssetFile": "/Users/chrisgallegos/Programming/EnterBridge/wwwroot/index.html",
+      "Route": "index.bv5xfjwgu1.html",
+      "AssetFile": "/Users/chrisgallegos/Desktop/EnterBridge/wwwroot/index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -611,7 +279,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11424"
+          "Value": "10864"
         },
         {
           "Name": "Content-Type",
@@ -619,11 +287,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"84jfJxufF+Ja23OBxJYgpWsAksJfYEiSb+BRYJDFsBI=\""
+          "Value": "\"9zYq/B0o9jwokaR98hrHyIHR/3eiq8q7EtW6bIv5idc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Apr 2025 22:32:09 GMT"
+          "Value": "Sat, 12 Apr 2025 23:15:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -633,7 +301,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "z8n5su3yt0"
+          "Value": "bv5xfjwgu1"
         },
         {
           "Name": "label",
@@ -641,13 +309,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-84jfJxufF+Ja23OBxJYgpWsAksJfYEiSb+BRYJDFsBI="
+          "Value": "sha256-9zYq/B0o9jwokaR98hrHyIHR/3eiq8q7EtW6bIv5idc="
         }
       ]
     },
     {
-      "Route": "index.z8n5su3yt0.html.gz",
-      "AssetFile": "/Users/chrisgallegos/Programming/EnterBridge/obj/Debug/net9.0/compressed/s2a9eyc2kc-z8n5su3yt0.gz",
+      "Route": "index.bv5xfjwgu1.html.gz",
+      "AssetFile": "/Users/chrisgallegos/Desktop/EnterBridge/obj/Debug/net9.0/compressed/s2a9eyc2kc-bv5xfjwgu1.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -656,7 +324,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3678"
+          "Value": "3553"
         },
         {
           "Name": "Content-Type",
@@ -664,11 +332,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"GNwu4IjE1+SkAtLkez1yykmoDz38GaUeRv7BJznEHm0=\""
+          "Value": "\"nI/WXDeiiWnFqQzgWB3Mw/IOTdmgipybFIRuBzNojgA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Apr 2025 22:32:09 GMT"
+          "Value": "Sat, 12 Apr 2025 23:15:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -686,7 +354,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "z8n5su3yt0"
+          "Value": "bv5xfjwgu1"
         },
         {
           "Name": "label",
@@ -694,7 +362,442 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-GNwu4IjE1+SkAtLkez1yykmoDz38GaUeRv7BJznEHm0="
+          "Value": "sha256-nI/WXDeiiWnFqQzgWB3Mw/IOTdmgipybFIRuBzNojgA="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "/Users/chrisgallegos/Desktop/EnterBridge/obj/Debug/net9.0/compressed/s2a9eyc2kc-bv5xfjwgu1.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000281373101"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3553"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nI/WXDeiiWnFqQzgWB3Mw/IOTdmgipybFIRuBzNojgA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 12 Apr 2025 23:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"9zYq/B0o9jwokaR98hrHyIHR/3eiq8q7EtW6bIv5idc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9zYq/B0o9jwokaR98hrHyIHR/3eiq8q7EtW6bIv5idc="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "/Users/chrisgallegos/Desktop/EnterBridge/wwwroot/index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10864"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9zYq/B0o9jwokaR98hrHyIHR/3eiq8q7EtW6bIv5idc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 12 Apr 2025 23:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9zYq/B0o9jwokaR98hrHyIHR/3eiq8q7EtW6bIv5idc="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "/Users/chrisgallegos/Desktop/EnterBridge/obj/Debug/net9.0/compressed/s2a9eyc2kc-bv5xfjwgu1.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3553"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nI/WXDeiiWnFqQzgWB3Mw/IOTdmgipybFIRuBzNojgA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 12 Apr 2025 23:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nI/WXDeiiWnFqQzgWB3Mw/IOTdmgipybFIRuBzNojgA="
+        }
+      ]
+    },
+    {
+      "Route": "styles.css",
+      "AssetFile": "/Users/chrisgallegos/Desktop/EnterBridge/obj/Debug/net9.0/compressed/ykd4atpphl-uh4n3naj3s.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001577287066"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "633"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1PtgJjz/kRFiUBAsSVf+Se4XJ/MkLboT9XWLX3CHNgo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 12 Apr 2025 23:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"gnXqnjgpyj4LFzit+2Bus058l0m3E+z9IgUFd9mDChY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gnXqnjgpyj4LFzit+2Bus058l0m3E+z9IgUFd9mDChY="
+        }
+      ]
+    },
+    {
+      "Route": "styles.css",
+      "AssetFile": "/Users/chrisgallegos/Desktop/EnterBridge/wwwroot/styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1597"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gnXqnjgpyj4LFzit+2Bus058l0m3E+z9IgUFd9mDChY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 12 Apr 2025 23:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gnXqnjgpyj4LFzit+2Bus058l0m3E+z9IgUFd9mDChY="
+        }
+      ]
+    },
+    {
+      "Route": "styles.css.gz",
+      "AssetFile": "/Users/chrisgallegos/Desktop/EnterBridge/obj/Debug/net9.0/compressed/ykd4atpphl-uh4n3naj3s.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "633"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1PtgJjz/kRFiUBAsSVf+Se4XJ/MkLboT9XWLX3CHNgo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 12 Apr 2025 23:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1PtgJjz/kRFiUBAsSVf+Se4XJ/MkLboT9XWLX3CHNgo="
+        }
+      ]
+    },
+    {
+      "Route": "styles.uh4n3naj3s.css",
+      "AssetFile": "/Users/chrisgallegos/Desktop/EnterBridge/obj/Debug/net9.0/compressed/ykd4atpphl-uh4n3naj3s.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001577287066"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "633"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1PtgJjz/kRFiUBAsSVf+Se4XJ/MkLboT9XWLX3CHNgo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 12 Apr 2025 23:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"gnXqnjgpyj4LFzit+2Bus058l0m3E+z9IgUFd9mDChY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uh4n3naj3s"
+        },
+        {
+          "Name": "label",
+          "Value": "styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gnXqnjgpyj4LFzit+2Bus058l0m3E+z9IgUFd9mDChY="
+        }
+      ]
+    },
+    {
+      "Route": "styles.uh4n3naj3s.css",
+      "AssetFile": "/Users/chrisgallegos/Desktop/EnterBridge/wwwroot/styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1597"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gnXqnjgpyj4LFzit+2Bus058l0m3E+z9IgUFd9mDChY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 12 Apr 2025 23:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uh4n3naj3s"
+        },
+        {
+          "Name": "label",
+          "Value": "styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gnXqnjgpyj4LFzit+2Bus058l0m3E+z9IgUFd9mDChY="
+        }
+      ]
+    },
+    {
+      "Route": "styles.uh4n3naj3s.css.gz",
+      "AssetFile": "/Users/chrisgallegos/Desktop/EnterBridge/obj/Debug/net9.0/compressed/ykd4atpphl-uh4n3naj3s.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "633"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1PtgJjz/kRFiUBAsSVf+Se4XJ/MkLboT9XWLX3CHNgo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 12 Apr 2025 23:15:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uh4n3naj3s"
+        },
+        {
+          "Name": "label",
+          "Value": "styles.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1PtgJjz/kRFiUBAsSVf+Se4XJ/MkLboT9XWLX3CHNgo="
         }
       ]
     }

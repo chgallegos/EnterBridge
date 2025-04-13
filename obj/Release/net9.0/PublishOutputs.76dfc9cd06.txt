@@ -1,0 +1,14 @@
+/Users/chrisgallegos/Desktop/EnterBridge/bin/Release/net9.0/publish/EnterBridgeApp
+/Users/chrisgallegos/Desktop/EnterBridge/bin/Release/net9.0/publish/EnterBridgeApp.dll
+/Users/chrisgallegos/Desktop/EnterBridge/bin/Release/net9.0/publish/EnterBridgeApp.deps.json
+/Users/chrisgallegos/Desktop/EnterBridge/bin/Release/net9.0/publish/EnterBridgeApp.runtimeconfig.json
+/Users/chrisgallegos/Desktop/EnterBridge/bin/Release/net9.0/publish/EnterBridgeApp.pdb
+/Users/chrisgallegos/Desktop/EnterBridge/bin/Release/net9.0/publish/Microsoft.AspNetCore.OpenApi.dll
+/Users/chrisgallegos/Desktop/EnterBridge/bin/Release/net9.0/publish/Microsoft.EntityFrameworkCore.dll
+/Users/chrisgallegos/Desktop/EnterBridge/bin/Release/net9.0/publish/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/chrisgallegos/Desktop/EnterBridge/bin/Release/net9.0/publish/Microsoft.EntityFrameworkCore.InMemory.dll
+/Users/chrisgallegos/Desktop/EnterBridge/bin/Release/net9.0/publish/Microsoft.OpenApi.dll
+/Users/chrisgallegos/Desktop/EnterBridge/bin/Release/net9.0/publish/Newtonsoft.Json.dll
+/Users/chrisgallegos/Desktop/EnterBridge/bin/Release/net9.0/publish/Swashbuckle.AspNetCore.Swagger.dll
+/Users/chrisgallegos/Desktop/EnterBridge/bin/Release/net9.0/publish/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/chrisgallegos/Desktop/EnterBridge/bin/Release/net9.0/publish/Swashbuckle.AspNetCore.SwaggerUI.dll
