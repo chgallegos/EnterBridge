@@ -65,6 +65,17 @@
     #logo {
       max-height: 60px;
     }
+
+    /* ✅ Hide browser number input arrows */
+    input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+
+    input[type="number"] {
+      -moz-appearance: textfield;
+    }
   </style>
 </head>
 <body>
@@ -119,6 +130,9 @@
           <h5>Recent Orders</h5>
           <div id="groupedOrders"></div>
           <button class="btn btn-outline-secondary mt-3" onclick="downloadCSV(orderHistory)">Export CSV</button>
+          <small class="text-muted d-block mt-1">
+            Tip: After downloading, open the file in Excel or Google Sheets and click <strong>Data → Create Filter</strong> to filter by Order ID, Category, or Date.
+          </small>
         </div>
       </div>
     </div>
@@ -356,9 +370,10 @@
       a.click();
       URL.revokeObjectURL(url);
     }
+
     document.addEventListener("DOMContentLoaded", () => {
-  document.getElementById("quantity").value = 1;
-});
+      document.getElementById("quantity").value = 1;
+    });
 
     fetchProducts();
   </script>
